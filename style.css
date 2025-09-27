@@ -1,0 +1,187 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (steve.jpeg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(255, 142, 142, 0.5), rgba(148, 166, 255, 0.5)), url("me_RAS.jpg");
+
+  /* Set a specific height */
+  height: 100vh;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in hero image */
+.hero-text {
+  font-family:  "Geogrotesque", "Arial Black", sans-serif;
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* Text styles */
+.fun-title-text {
+  font-family:  "Geogrotesque", "Arial Black", sans-serif;
+  padding-bottom: 10px;
+  font-size: 50px;
+  background-color: rgba(255, 255, 255, 0.779);
+  border-color: rgba(217, 132, 243, 0.779);
+  border-style: solid;
+  color: rgba(217, 132, 243, 0.779);
+  text-align: center;
+}
+
+.fun-subtitle-text {
+  font-family:  "Geogrotesque", "Arial Black", sans-serif;
+  font-size: 40px;
+ 
+  background-color: rgba(255, 255, 255, 0.779);
+  border-color: rgba(99, 210, 165, 0.779);
+  border-style: solid;
+  
+  color: rgba(99, 210, 165, 0.779) !important;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.image-header-text{
+  font-family:  "Monaco", "Courier New", monospace;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(132, 197, 243, 0.779);
+  color: white !important;
+}
+.description{
+  font-family:  "Monaco", "Courier New", monospace;
+  font-size: 12px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/*Descriptive paragraphs*/
+.paragraph-title{
+  font-family:  "Monaco", "Courier New", monospace;
+  font-size: 14px;
+  padding-top: 10px;
+  text-align: left;
+  font-weight: bold;
+}
+.paragraph-text{
+  font-family:  "Monaco", "Courier New", monospace;
+  font-size: 12px;
+  padding: 10px;
+  text-align: left;
+}
+
+/*Fun text*/
+.warning{
+  font-family:  "Geogrotesque", "Arial Black", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: red !important;
+  background-image: "caution.jpg";
+}
+
+/* Add a hover effect (grey background color) to portfolio images */
+.hover:hover .img-responsive {
+  opacity: 0.3;
+}
+
+.hover:hover .img {
+  opacity: 0.3;
+}
+
+
+.bg-b {
+  background: #2d2d30;
+  color: #bdbdbd;
+}
+.bg-w h3 {color: #fff;}
+.bg-w p {color: #fff;}
+
+.bg-w {
+  background: #fff;
+  color: #2d2d30;
+}
+.bg-w h3 {color: #2d2d30;}
+.bg-w p {color: #2d2d30;}
+
+
+/*Modal Styling 
+
+.modal-dialog {
+  background-color: yellow;
+  width: 90%;
+  max-width: 95vw;
+  margin: 30px auto;
+}
+
+.modal-content {
+  background-color: aqua;
+  margin: 30px auto;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.container-fluid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.modal-body .img-responsive {
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+.modal-footer .btn {
+  margin: 0 auto;
+  display: inline-block;
+}
+
+
+
+
+
+.portfolio-modal .modal-lg .modal-content {
+  display: grid;
+  place-items: center; 
+  overflow-y: auto;     
+  background:rgba(255, 71, 184, 0.317)
+}
+
+.modal-body{
+  display: grid;
+  place-items: center; 
+  overflow-y: auto;     
+  background:rgba(90, 250, 255, 0.5)
+}
+.modal-footer{
+  display: grid;
+  place-items: center; 
+  overflow-y: auto;     
+  background:rgba(90, 250, 255, 0.5)
+}
+
+*/
+
+
+
+
+
+
